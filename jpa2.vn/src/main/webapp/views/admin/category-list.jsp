@@ -4,6 +4,8 @@
 	
 	<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 	
+	
+	<a href="${pageContext.request.contextPath}/admin/categories/upload" class="center">upload categories</a>
 <table border = "1" width="100%">
 <tr>
 		<th>STT</th>

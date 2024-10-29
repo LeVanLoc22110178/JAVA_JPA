@@ -5,8 +5,6 @@
 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
 	version="3.0">
 	<persistence-unit name="jpa-hibernate-mysql"> 
-		<class>leloc.entity.Category</class>
-		<class>leloc.entity.Video</class>
 		<properties>
 			<property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 			<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/lelocjpa" />
